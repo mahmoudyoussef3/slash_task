@@ -28,7 +28,7 @@ class HomeWebLayout extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.all(8.0),
-          child: Text(title, style: Theme.of(context).textTheme.headline6),
+          child: Text(title)
         ),
         SizedBox(
           height: 100,
