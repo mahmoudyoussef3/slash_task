@@ -31,3 +31,22 @@ To set up and run the project, follow these steps:
 
 Make sure to follow these instructions carefully to set up and run the project successfully.
 
+## Architecture
+
+This project follows the Clean Architecture and MVVM (Model-View-ViewModel) design patterns. The main layers are:
+
+- **Data Layer**: Contains the data models and repository classes.
+  - `lib/data/models/`: Data models used in the application.
+  - `lib/data/repo/`: Repository classes that handle data operations.
+
+- **Domain Layer**: Contains the business logic.
+  - `lib/domain/entities/`: Entity classes that define the core data structures.
+  - `lib/domain/usecases/`: Use case classes that encapsulate business logic.
+
+- **Presentation Layer**: Contains the UI and state management classes.
+  - `lib/presentation/bloc/`: BLoC (Business Logic Component) classes for state management.
+  - `lib/presentation/views/`: UI components, organized into screens and widgets.
+    - `lib/presentation/views/screens/`: Individual screens of the application.
+    - `lib/presentation/views/widgets/`: Reusable UI components.
+
+The `main.dart` file serves as the entry point of the application.
