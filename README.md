@@ -2,32 +2,32 @@
 
 This is a completed task for internship program from SLASH INFO.
 
-Project Struture :
-lib
-├── data
-│   ├── models
-│   │   ├── home_model.dart
-│   │   ├── home_model.g.dart
-│   ├── repo
-│   │   └── home_repo.dart
-├── domain
-│   ├── entities
-│   │   └── home_entity.dart
-│   ├── usecases
-│   │   └── get_home_data.dart
-├── presentation
-│   ├── bloc
-│   │   ├── home_cubit.dart
-│   │   ├── home_state.dart
-│   ├── views
-│   │   ├── screens
-│   │   │   ├── favorite.dart
-│   │   │   ├── home.dart
-│   │   │   ├── my_cart.dart
-│   │   │   ├── profile.dart
-│   │   ├── widgets
-│   │   │   ├── home_mobile_layout.dart
-│   │   │   ├── home_web_layout.dart
-│   │   │   └── bottom_nav_controller.dart
-└── main.dart
+
+## Setup Instructions
+
+To set up and run the project, follow these steps:
+
+1. **Ensure you have a stable internet connection**: This is necessary because the project relies on several packages that need to be downloaded from the internet.
+
+2. **Clone the repository**:
+    ```sh
+    git clone <repository_url>
+    ```
+
+3. **Navigate to the project directory**:
+    ```sh
+    cd <project_directory>
+    ```
+
+4. **Install the required packages**:
+    ```sh
+    flutter pub get
+    ```
+
+5. **Run the application**:
+    ```sh
+    flutter run
+    ```
+
+Make sure to follow these instructions carefully to set up and run the project successfully.
 
